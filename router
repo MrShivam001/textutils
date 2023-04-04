@@ -1,0 +1,11 @@
+    <Router>
+  
+         <Route exact path="/about">
+           <About/>
+         </Route>
+    <Route exact path="/">
+      <div className='container'  >
+        <Middle  mode={mode} showAlert={showAlert}/>
+        </div>
+         </Route>
+      </Router>
